@@ -1,0 +1,34 @@
+.main-foot{
+    width: 100%;
+    background: #333;
+    padding:20px 0;
+    color:#fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: auto;
+    &__menu{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        li{
+            margin-left: 2em;
+            a{
+                color:#fff;
+                text-decoration: none;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+.copy{
+    width: 100%;
+    padding:20px 0;
+    text-align: center;
+    background: #111;
+    color:#fff;
+    p{
+        font-size: 1.6rem;
+    }
+}
